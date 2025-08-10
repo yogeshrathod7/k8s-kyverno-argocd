@@ -63,7 +63,7 @@ helm search repo kyverno -l | head -n 10
 helm install kyverno kyverno/kyverno -n kyverno --create-namespace --version 2.6.5
 ```
 
-### Using Kubernetes manifest yaml files
+### Using Kubernetes manifest yaml files.
 
 ```
 kubectl create -f https://github.com/kyverno/kyverno/releases/download/v1.8.5/install.yaml
